@@ -1,0 +1,120 @@
+html {
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+
+.description {
+  color: rgb(221, 213, 213);
+}
+
+.notes {
+  color: rgb(150, 150, 150);
+  font-size: small;
+  font-style: italic;
+}
+
+.texts {
+  width: 40%;
+  display: inline-block;
+}
+
+.images {
+  width: 60%;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+.scroll {
+  overflow-x: scroll;
+}
+
+.thumbnail {
+  width: 6000px;
+}
+
+.thumbnail img {
+  width: 200px;
+  height: 100px;
+  display: inline;
+
+  margin: 0 12px 0 0;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  font-style: bold;
+  border: none;
+  width: 170px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.panel {
+  background-image: linear-gradient(to bottom right, black, grey);
+  margin: auto;
+  width: 180px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.loginNotes {
+  color: white;
+  font-size: small;
+  font-style: italic;
+}
+
+.thumbnail > img:hover {
+  border: red solid;
+}
+
+svg {
+  width: 30px;
+}
+
+.player-container {
+  width: 600px;
+  height: 420px;
+  background-image: url('https://placekitten.com/g/800/640');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.back-button {
+  height: 25px;
+  padding: 10px;
+  margin-top: 1.5%;
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5px;
+}
+
+.media-index {
+  display: flex;
+  color: rgb(179, 173, 173);
+  align-items: flex-start;
+  margin-left: 2%;
+}
+
+.volume-button {
+  padding: 18px;
+  align-self: flex-start;
+  margin-left: 23%;
+}
+
+.play-button {
+  display: flex;
+  align-self: flex-end;
+  position: fixed;
+  padding: 10px;
+}
